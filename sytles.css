@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* card one */
+
+.card-one {
+  padding: 30px;
+  background: linear-gradient(#1488cc, #2b32b2);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.circle {
+  background-color: #1371ca;
+  padding: 55px;
+  border-radius: 50%;
+  margin: 25px 0 25px 0;
+}
+
+.result,
+.total,
+.description {
+  color: #cccccc;
+}
+
+.total,
+.description {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h1,
+.appraise {
+  color: #f2f2f2;
+}
+
+.appraise {
+  margin-bottom: 20px;
+}
+
+.result,
+.appraise {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 60px;
+  padding: 5px;
+}
+
+/* card two */
+
+.card-two {
+  background-color: #ffffff;
+  padding: 30px;
+  height: 450px;
+  width: 350px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+ul {
+  list-style: none;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9f9eb;
+}
+
+button {
+  background-color: #063350;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sum-list {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  background-color: greenyellow;
+  margin: 15px;
+  padding: 15px 15px 15px 25px;
+  border-radius: 10px;
+  width: 280px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.summary,
+span {
+  color: #333333;
+}
+
+span {
+  float: right;
+  font-size: 16px;
+  font-weight: 600;
+  color: #818891;
+}
+
+#reaction {
+  color: #ff6666;
+  background-color: #ffe6e6;
+}
+
+#memory {
+  color: #ccad00;
+  background-color: #fff7cc;
+}
+
+#verbal {
+  color: #006600;
+  background-color: #ccffcc;
+}
+
+#visual {
+  color: #0000b3;
+  background-color: #ccccff;
+}
